@@ -20,7 +20,8 @@
                                 <rect key="frame" x="20" y="135" width="280" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="cBL-Ll-flp"/>
+                                    <constraint firstAttribute="width" constant="280" id="SUb-at-CsX"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="x1C-bS-mJv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -30,7 +31,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="heightConstraint" destination="cBL-Ll-flp" id="rTP-lo-e9y"/>
                         <outlet property="multipleLineLbl" destination="0BG-1s-TKR" id="NTV-xi-VQ0"/>
                     </connections>
                 </viewController>
