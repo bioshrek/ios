@@ -1,16 +1,14 @@
 //
 //  ComShrekSampleViewController.m
-//  LabelSample
+//  TableViewSample
 //
-//  Created by shrek wang on 5/10/14.
+//  Created by shrek wang on 5/11/14.
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
 #import "ComShrekSampleViewController.h"
 
 @interface ComShrekSampleViewController ()
-
-@property (weak, nonatomic) IBOutlet UILabel *multipleLineLbl;
 
 @end
 
@@ -19,8 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.multipleLineLbl.text = @"[1st line] I am a very long string to test multiple line label. If it work out, you should see me wrapped in multiple lines.\n\n[2nd line] Hi, i m the second line.";
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
